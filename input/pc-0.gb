@@ -1,0 +1,145 @@
+LOCUS       pC-0                    4150 bp ds-DNA     circular     06-FEB-2024
+DEFINITION  Full MCS (step 2).
+KEYWORDS    "accession:addgene_124421_237837"
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+COMMENT     Imported from database: AddGene Entry: pC-0 URL:
+            https://www.addgene.org/browse/sequence/237837/ GENERAL Depositing
+            Lab: Yolanda Schaerli Publication: Santos-Moreno et al ACS
+            Synthetic Biology, June 11 2019 Purpose: (Empty Backbone) Full MCS
+            (step 2) BACKBONE Vector backbone: pCOLA Vector type: Bacterial
+            Expression, Synthetic Biology GROWTH IN BACTERIA Bacterial
+            Resistance(s): Kanamycin, 50 μg/mL Copy number: High Copy Growth
+            Strain(s): DH5alpha Growth Temperature: 37°C TERMS AND LICENSES
+            Academic/Nonprofit Terms:  Industry Terms:
+FEATURES             Location/Qualifiers
+     source          1..4150
+                     /label="source"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     promoter        27..311
+                     /label="araBAD promoter"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /note="promoter of the L-arabinose operon of E. coli; the araC regulatory gene is transcribed in the opposite direction (Guzman et al., 1995)"
+                     /gene="araBAD"
+     primer_bind     234..253
+                     /label="pBAD Forward"
+                     /ApEinfo_revcolor="#d6b295"
+                     /ApEinfo_fwdcolor="#d6b295"
+                     /note="For vectors with E. coli araBAD promoter, forward primer"
+     terminator      1346..1373
+                     /label="rrnB T2 terminator"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+                     /note="transcription terminator T2 from the E. coli rrnB gene"
+     CDS             complement(1561..2376)
+                     /label="KanR"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /note="confers resistance to kanamycin in bacteria or G418 (Geneticin(R)) in eukaryotes"
+                     /gene="aph(3')-Ia"
+                     /product="aminoglycoside phosphotransferase"
+                     /translation="MSHIQRETSCSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLYGKPDAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGKTAFQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVDASDFDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRVGIADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF*"
+     primer_bind     2284..2303
+                     /label="Kan-R"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /note="Kanamycin resistance gene, reverse primer"
+     promoter        complement(2377..2468)
+                     /label="AmpR promoter"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+                     /gene="bla"
+     rep_origin      complement(2486..3121)
+                     /label="ColA ori"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /note="Plasmids containing the ColA origin of replication can be propagated in E. coli cells that contain additional plasmids with compatible origins."
+                     /direction="LEFT"
+     primer_bind     complement(2631..2650)
+                     /label="pBR322ori-F"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+                     /note="pBR322 origin, forward primer"
+     CDS             complement(3272..4150)
+                     /label="araC"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /gene="araC"
+                     /product="L-arabinose regulatory protein"
+                     /translation="MAEAQNDPLLPGYSFNAHLVAGLTPIEANGYLDFFIDRPLGMKGYILNLTIRGQGVVKNQGREFVCRPGDILLFPPGEIHHYGRHPEAREWYHQWVYFRPRAYWHEWLNWPSIFANTGFFRPDEAHQPHFSDLFGQIINAGQGEGRYSELLAINLLEQLLLRRMEAINESLHPPMDNRVREACQYISDHLADSNFDIASVAQHVCLSPSRLSHLFRQQLGISVLSWREDQRISQAKLLLSTTRMPIATVGRNVGFDDQLYFSRVFKKCTGASPSEFRAGCEEKVNDVAVKLS*"
+ORIGIN
+        1 acttttcata ctcccgccat tcagagaaga aaccaattgt ccatattgca tcagacattg
+       61 ccgtcactgc gtcttttact ggctcttctc gctaaccaaa ccggtaaccc cgcttattaa
+      121 aagcattctg taacaaagcg ggaccaaagc catgacaaaa acgcgtaaca aaagtgtcta
+      181 taatcacggc agaaaagtcc acattgatta tttgcacggc gtcacacttt gctatgccat
+      241 agcattttta tccataagat tagcggttcc tacctgacgc tttttatcgc aactctctac
+      301 tgtttctcca taccgaattc ataggataga ttctggaaac tttaccgtcc gagctcaggc
+      361 ttaccttact cgagcaataa acagttgata gggcttctcc gttaccatgg ttcagccaaa
+      421 aaacttaaga ccgccggtct tgtccactac cttgcagtaa tgcggtggac aggatcggcg
+      481 gttttctttt ctcttctcaa ttcttctgac ctgtaacgaa taatagatag taaagtagtc
+      541 tccgattgag ttttctctgc cgagtcccac ccagttctgt gatttcagta agttggtaat
+      601 tgatacactg ttgcgagaac tgctgcctgg tagtagatag gttgttattg agtaagaagg
+      661 taaagtgaac gaaatccctg aaactgagac tgtagaaaat aagcttgtcc agactattgg
+      721 atccaagaga tttctacacg attgagcact gtctcctgca ggctcggtac caaattccag
+      781 aaaagaggcc tcccgaaagg ggggcctttt ttcgttttgg tcctaataga taaaggatag
+      841 gtctggtagt gttgttcgtt ctcgcaggta aatcaataat actcagcagt tccgtagact
+      901 tttcagtggg acagggtagc gataacagat agattgtaat aagacacagt aggtgctcgt
+      961 agttgcgtga agagaaccgc tcaggaaatc cagtcagaag tattggtaat cgttgaaaac
+     1021 tcagtcgacg cacttactga agacgtccta ttacactcgt cgttggaaac tgaagatgcg
+     1081 gccgcggaaa cacagaaaaa agcccgcacc tgacagtgcg ggcttttttt ttcgaccaaa
+     1141 ggtagcgaac gacgagtcac tgttgaggat aaatactttc tctactaggc gcctgttaca
+     1201 caggtcctca gcggcgcgcc tttgtcggtg aacgctctcc tgagtaggac aaatccgccg
+     1261 ggagcggatt tgaacgttgt gaagcaacgg cccggagggt ggcgggcagg acgcccgcca
+     1321 taaactgcca ggcatcaaac taagcagaag gccatcctga cggatggcct ttttgcgttt
+     1381 cagatctacc ggtaaaccag caatagacat aagcggctat ttaacgaccc tgccctgaac
+     1441 cgacgacaag ctgacgaccg ggtctccgca agtggcactt ttcggggaaa tgtgcgcgga
+     1501 acccctattt gtttattttt ctaaatacat tcaaatatgt atccgctcat gaattaattc
+     1561 ttagaaaaac tcatcgagca tcaaatgaaa ctgcaattta ttcatatcag gattatcaat
+     1621 accatatttt tgaaaaagcc gtttctgtaa tgaaggagaa aactcaccga ggcagttcca
+     1681 taggatggca agatcctggt atcggtctgc gattccgact cgtccaacat caatacaacc
+     1741 tattaatttc ccctcgtcaa aaataaggtt atcaagtgag aaatcaccat gagtgacgac
+     1801 tgaatccggt gagaatggca aaagtttatg catttctttc cagacttgtt caacaggcca
+     1861 gccattacgc tcgtcatcaa aatcactcgc atcaaccaaa ccgttattca ttcgtgattg
+     1921 cgcctgagcg agacgaaata cgcggtcgct gttaaaagga caattacaaa caggaatcga
+     1981 atgcaaccgg cgcaggaaca ctgccagcgc atcaacaata ttttcacctg aatcaggata
+     2041 ttcttctaat acctggaatg ctgttttccc ggggatcgca gtggtgagta accatgcatc
+     2101 atcaggagta cggataaaat gcttgatggt cggaagaggc ataaattccg tcagccagtt
+     2161 tagtctgacc atctcatctg taacatcatt ggcaacgcta cctttgccat gtttcagaaa
+     2221 caactctggc gcatcgggct tcccatacaa tcgatagatt gtcgcacctg attgcccgac
+     2281 attatcgcga gcccatttat acccatataa atcagcatcc atgttggaat ttaatcgcgg
+     2341 cctagagcaa gacgtttccc gttgaatatg gctcatactc ttcctttttc aatattattg
+     2401 aagcatttat cagggttatt gtctcatgag cggatacata tttgaatgta tttagaaaaa
+     2461 taaacaaata ggcatgctag cgcagaaacg tcctagaaga tgccaggagg atacttagca
+     2521 gagagacaat aaggccggag cgaagccgtt tttccatagg ctccgccccc ctgacgaaca
+     2581 tcacgaaatc tgacgctcaa atcagtggtg gcgaaacccg acaggactat aaagatacca
+     2641 ggcgtttccc cctgatggct ccctcttgcg ctctcctgtt cccgtcctgc ggcgtccgtg
+     2701 ttgtggtgga ggctttaccc aaatcaccac gtcccgttcc gtgtagacag ttcgctccaa
+     2761 gctgggctgt gtgcaagaac cccccgttca gcccgactgc tgcgccttat ccggtaacta
+     2821 tcatcttgag tccaacccgg aaagacacga caaaacgcca ctggcagcag ccattggtaa
+     2881 ctgagaatta gtggatttag atatcgagag tcttgaagtg gtggcctaac agaggctaca
+     2941 ctgaaaggac agtatttggt atctgcgctc cactaaagcc agttaccagg ttaagcagtt
+     3001 ccccaactga cttaaccttc gatcaaaccg cctccccagg cggttttttc gtttacagag
+     3061 caggagatta cgacgatcgt aaaaggatct caagaagatc ctttacggat tcccgacacc
+     3121 atcactctag atttcagtgc aatttatctc ttcaaatgta gcacctgaag tcagccccat
+     3181 acgatataag ttgtaattct catgttagtc atgccccgcg cccaccggaa ggagctgact
+     3241 gggttgctcc tagggtctga ttcgttacca attatgacaa cttgacggct acatcattca
+     3301 ctttttcttc acaaccggca cggaactcgc tcgggctggc cccggtgcat tttttaaata
+     3361 cccgcgagaa atagagttga tcgtcaaaac caacattgcg accgacggtg gcgataggca
+     3421 tccgggtggt gctcaaaagc agcttcgcct ggctgatacg ttggtcctcg cgccagctta
+     3481 agacgctaat ccctaactgc tggcggaaaa gatgtgacag acgcgacggc gacaagcaaa
+     3541 catgctgtgc gacgctggcg atatcaaaat tgctgtctgc caggtgatcg ctgatgtact
+     3601 gacaagcctc gcgtacccga ttatccatcg gtggatggag cgactcgtta atcgcttcca
+     3661 tgcgccgcag taacaattgc tcaagcagat ttatcgccag cagctccgaa tagcgccctt
+     3721 ccccttgccc ggcgttaatg atttgcccaa acaggtcgct gaaatgcggc tggtgcgctt
+     3781 catccgggcg aaagaacccc gtattggcaa atattgacgg ccagttaagc cattcatgcc
+     3841 agtaggcgcg cggacgaaag taaacccact ggtgatacca ttcgcgagcc tccggatgac
+     3901 gaccgtagtg atgaatctct cctggcggga acagcaaaat atcacccggt cggcaaacaa
+     3961 attctcgtcc ctgatttttc accaccccct gaccgcgaat ggtgagattg agaatataac
+     4021 ctttcattcc cagcggtcgg tcgataaaaa aatcgagata accgttggcc tcaatcggcg
+     4081 ttaaacccgc caccagatgg gcattaaacg agtatcccgg cagcagggga tcattttgcg
+     4141 cttcagccat
+//
