@@ -1,0 +1,38 @@
+{
+  "constraints": {
+    "length": {
+      "minimum": 2000,
+      "maximum": 10000
+    },
+    "gc_content": {
+      "minimum": 0.4,
+      "maximum": 0.6
+    },
+    "restriction_sites": [
+      "EcoRI",
+      "BamHI",
+      "HindIII"
+    ],
+    "coding_sequence": {
+      "required": true,
+      "minimum_length": 300,
+      "maximum_length": 1500
+    },
+    "origin_of_replication": {
+      "required": true,
+      "allowed": [
+        "pUC",
+        "pBR322",
+        "ColE1"
+      ]
+    },
+    "selection_marker": {
+      "required": true,
+      "allowed": [
+        "ampicillin",
+        "kanamycin",
+        "chloramphenicol"
+      ]
+    }
+  }
+}
